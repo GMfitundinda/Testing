@@ -1,4 +1,7 @@
-﻿using System;
+﻿// Gilbert Mfitundinda
+//February/25/2021
+//Primenumbercheck
+using System;
 namespace Demo
 {
     class MyApplication
