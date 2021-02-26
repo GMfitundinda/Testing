@@ -1,13 +1,10 @@
 ﻿// Code written by Gilbert Mfitundinda
 //February/26/2021
-//Primenumbercheck
+//convertinga two-dimensional array to a one dimensional array
 using System.Linq;
 using System;
-
-namespace LogicalPrograms
-{
-    class Program
-    {
+namespace LogicalPrograms{
+    class Program    {
         static void Main(string[] args)
         {
             //Creating a two dimensional array with two rows and three columns
