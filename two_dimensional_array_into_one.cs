@@ -1,6 +1,6 @@
 ﻿// Code written by Gilbert Mfitundinda
 //February/26/2021
-//convertinga two-dimensional array to a one dimensional array
+//converting a two-dimensional array to a one dimensional array
 using System.Linq;
 using System;
 namespace LogicalPrograms{
