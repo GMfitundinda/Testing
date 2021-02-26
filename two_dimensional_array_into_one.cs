@@ -1,4 +1,7 @@
-﻿using System.Linq;
+﻿// Code written by Gilbert Mfitundinda
+//February/26/2021
+//Primenumbercheck
+using System.Linq;
 using System;
 
 namespace LogicalPrograms
@@ -7,7 +10,7 @@ namespace LogicalPrograms
     {
         static void Main(string[] args)
         {
-            //Creating a 2d Array with 2 rows and three columns
+            //Creating a two dimensional array with two rows and three columns
             int[,] int2DArray = new int[2, 3];
             Console.Write("Enter 2D Array Elements : ");
             for (int i = 0; i < 2; i++)
@@ -20,16 +23,18 @@ namespace LogicalPrograms
 
             int index = 0;
 
-            //Getting the no of rows of 2d array 
+            //Number of rows for the two dimesnional array 
             int NoOfRows = int2DArray.GetLength(0);
 
-            //Getting the no of columns of the 2d array
+            //Number of columns for the two dimensional array
             int NoOfColumns = int2DArray.GetLength(1);
 
-            //Creating 1d Array by multiplying NoOfRows and NoOfColumns
+            //Creating a one dimensional array 
+            //By multiplying NoOfRows and NoOfColumns of the two dimensional array
             int[] OneDimensionalArray = new int[NoOfRows * NoOfColumns];
 
-            //Assigning the elements to 1d Array from 2d array
+            //Assigning the elements to one dimensional array 
+            //From the two dimensional array
             for (int y = 0; y < NoOfRows; y++)
             {
                 for (int x = 0; x < NoOfColumns; x++)
