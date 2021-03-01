@@ -34,7 +34,7 @@ class merge_sort
                 }
             }
         }
-        Console.Write("\nElements of array sorted ascending order:\n");
+        Console.Write("\nElements of array sorted in ascending order:\n");
         for (i = 0; i < n; i++)
         {
             Console.Write("{0}  ", arr1[i]);
