@@ -1,7 +1,9 @@
-﻿using System;
-public class Exercise11
+﻿// Code written by Gilbert Mfitundinda
+//February/26/2021
+using System;
+class merge_sort
 {
-    public static void Main()
+    public static void Main(int)
     {
         int[] arr1 = new int[10];
         int n, i, j, tmp;
