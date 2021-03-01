@@ -9,7 +9,7 @@ class merge_sort
         int n, i, j, tmp;  
 
 
-        Console.Write("\n\nSort elements of array in ascending order :\n");
+        Console.Write("\n\nSorts array elements in ascending order :\n");
         Console.Write("----------------------------------------------\n");
 
         Console.Write("Input the size of array : ");
@@ -34,7 +34,7 @@ class merge_sort
                 }
             }
         }
-        Console.Write("\nElements of array in sorted ascending order:\n");
+        Console.Write("\nElements of array sorted ascending order:\n");
         for (i = 0; i < n; i++)
         {
             Console.Write("{0}  ", arr1[i]);
