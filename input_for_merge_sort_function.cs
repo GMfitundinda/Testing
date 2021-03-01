@@ -3,7 +3,7 @@
 using System;
 class merge_sort
 {
-    public static void Main(int)
+    public static void Main()
     {
         int[] arr1 = new int[10];
         int n, i, j, tmp;
