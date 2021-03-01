@@ -1,8 +1,6 @@
-﻿using System;
-
-public class Class1
+﻿[TestMethod]
+//the method would test the returned value to see if it is true or not.
+public void ()
 {
-	public Class1()
-	{
-	}
+    Assert.AreEqual(flag, 1, "Positive integer entered is a prime Number");
 }
