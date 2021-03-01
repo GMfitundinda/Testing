@@ -1,5 +1,5 @@
 ﻿// Gilbert Mfitundinda
-//February/25/2021
+//March/01/2021
 //a C# function that sorts arrays using Merge sort algorithm
 //It returns the sorted array 
 
