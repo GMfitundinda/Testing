@@ -6,7 +6,7 @@ class merge_sort
     public static void Main()
     {
         int[] arr1 = new int[10];
-        int n, i, j, tmp;
+        int n, i, j, tmp;  
 
 
         Console.Write("\n\nSort elements of array in ascending order :\n");

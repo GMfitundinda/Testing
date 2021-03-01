@@ -5,6 +5,7 @@
 
 using System;
 class MergeSort
+   
 {
 
     // Merges two subarrays of []arr.
@@ -83,12 +84,11 @@ class MergeSort
             // point
             int m = l + (r - l) / 2;
 
-            // Sort first and
-            // second halves
+            // Sorting both the first and second halves
             sort(arr, l, m);
             sort(arr, m + 1, r);
 
-            // Merge the sorted halves
+            // Merging the sorted halves
             merge(arr, l, m, r);
         }
     }
